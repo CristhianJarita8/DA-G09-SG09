@@ -49,16 +49,8 @@
             border-radius: 4px;
         }
 
-        .form-group input:invalid {
-            border-color: #e74c3c;
-        }
-
-        .form-group input:valid {
-            border-color: #2ecc71;
-        }
-
         .form-group small {
-            color: #e74c3c;
+            color: #76f87d;
             display: none;
         }
 
@@ -89,7 +81,7 @@
         <form id="registrationForm" action="#" method="post">
             <div class="form-group">
                 <label for="name">Nombre Completo:</label>
-                <input type="text" id="name" name="name" required minlength="3" maxlength="50" pattern="A-Za-z"
+                <input type="text" id="name" name="name" required minlength="3" maxlength="50" pattern="[A-Za-z]+"
                     title="El nombre solo puede contener letras y espacios." />
                 <small>Por favor, ingresa un nombre válido minimo de 3 caracteres</small>
             </div>
