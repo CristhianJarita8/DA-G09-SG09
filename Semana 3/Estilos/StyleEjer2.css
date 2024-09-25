@@ -1,0 +1,139 @@
+body {
+    background-color: #000000;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #b95a5a;
+    height: 3vh;
+}
+
+.menu li {
+    border: 1px solid rgb(87, 143, 218);
+    width: 25%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu li:hover {
+    background-color: hsla(175, 6%, 62%, 0.308);
+}
+
+h1 {
+    text-align: center;
+}
+
+#div_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div_tabla {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 40px;
+    margin: 10px;
+}
+
+.div_celda {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-height: 500px;
+}
+
+.div_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 60%;
+}
+
+.img_celda {
+    width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.div_precio {
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    width: 100%;
+    height: 35px;
+    margin: 10px;
+    background-color: hsla(36, 51%, 54%, 0.76);
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: hsla(42, 26%, 70%, 0.363);
+}
+
+.img_boton {
+    height: 80%;
+}
+
+/* Media queries para pantallas pequeñas (menos de 480px) */
+
+@media (max-width: 900px) {
+    .div_celda {
+        flex: 1 1 40%;
+        width: 100%;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .img_celda {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    #div_tabla {
+        flex-direction: column;
+    }
+
+    .div_celda {
+        width: 100%;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .img_celda {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
