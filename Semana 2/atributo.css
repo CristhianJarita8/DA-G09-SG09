@@ -1,0 +1,5 @@
+img[src$=".jpg"]{border-radius:10px; width: 10cm;}
+img[src$=".png"]{border-radius:10px; width: 10cm;}
+
+[href] {color: orange;}
+

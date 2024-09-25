@@ -1,0 +1,34 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    color: #53D048;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2 {
+    color: #A52A2A;
+    font-size: 50px;
+}
+
+ul li {
+    color: #00FFFF;
+    font-size: 30px;
+}
+
+p {
+    color: #FFA500;
+    font-size: 25px;
+}
+
+.logo {
+    width: 3cm;
+}
+
+img {
+    width: 10cm;
+    border-radius: 20px;
+}
+

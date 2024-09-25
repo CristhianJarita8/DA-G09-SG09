@@ -1,0 +1,28 @@
+p::first-line {
+    color: orange
+}
+
+h1::selection {
+    color: lightcoral; font-size: 80px;
+}
+
+h1::before {
+    content: "🤘🏻";
+}
+
+h1::after {
+    content: "🤘🏻";
+}
+
+p::first-letter {
+    font-size: 200%;
+}
+
+ul li::marker {
+    color: aqua;
+}
+
+p::grammar-error {
+    color: red;
+    text-decoration: underline;
+}

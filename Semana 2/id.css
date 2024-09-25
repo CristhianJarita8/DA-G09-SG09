@@ -1,0 +1,23 @@
+#titulo {
+    font-size: 80px;
+    color: orange;
+    text-align: center;
+}
+
+#subtitulo {
+    font-size: 40px;
+    color: brown;
+}
+
+#lista {
+    font-size: 20px;
+    color: blue;
+}
+
+#imagen {
+    width: 10cm;
+}
+
+#parrafo {
+    font-size: 20px;
+}

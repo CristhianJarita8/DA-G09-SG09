@@ -1,0 +1,73 @@
+/* HERENCIA */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+header {
+    color: lightcoral;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+article {
+    text-align: justify;
+}
+
+ul {
+    font-size: 30px;
+}
+
+aside {
+    font-size: 20px;
+    color:blueviolet;
+    background-color: aqua;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* CASCADA */
+h1 {
+    color: blue;
+}
+
+h1 {
+    color: red;
+}
+
+header h1 {
+    color: green;
+}
+
+p {
+    font-size: 14px !important;
+}
+
+article p {
+    font-size: 16px; 
+}
+
+ul li {
+    list-style-type: square;
+}
+
+nav ul li {
+    list-style-type: disc;
+}
+
+footer ul {
+    color: black;
+}
+
+footer ul a {
+    color: blue;
+}

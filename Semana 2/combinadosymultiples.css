@@ -1,0 +1,35 @@
+li a {
+    text-decoration: none;
+    color: red;
+}
+
+ul p {
+    color: orange;
+    font-size: 20px;
+}
+
+h2 + p {
+    margin-top: 0;
+    font-style: italic;
+}
+
+p ~ img {
+    color: aqua;
+    width: 10cm;
+}
+
+ul li::before {
+    content: "🤘🏻";
+    color: blue;
+}
+
+header h1 {
+    color:aqua;
+    text-align: center;
+    margin: 20px;
+    font-size: 80px;
+}
+
+.subtitulo::after {
+    content: "🤘🏻";
+}

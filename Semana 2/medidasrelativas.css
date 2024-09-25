@@ -1,0 +1,74 @@
+/* RELATIVA EN EM */
+h1 {
+    font-size: 5em;
+    color: green;
+    text-align: center;
+}
+
+/* RELATIVA EN EX */
+
+h2 {
+    font-size: 10ex;
+    color: green;
+}
+
+/* RELATIVA EN CH */
+
+img {
+    width: 80ch;
+    border-radius: 5ch;
+}
+
+.logo {
+    width: 20ch;
+}
+
+img:last-child {
+    width: 100ch;
+}
+
+/* RELATIVA EN LH */
+
+li {
+    font-size: 3lh;
+}
+
+ul li:first-child {
+    font-size: 5lh;
+    color: aqua;
+}
+
+ul li:last-child {
+    font-size: 2lh;
+    color: blueviolet;
+}
+
+/* RELATIVA EN VW */
+
+p {
+    font-size: 3vw;
+    text-align: justify;
+    color: orange;
+}
+
+p::first-line {
+    font-size: 8vw;
+}
+
+/* RELATIVA EN VH */
+
+a {
+    font-size: 3vh;
+}
+
+/* RELATIVA EN VMIN */
+
+p::first-letter {
+    font-size: 30vmin;
+}
+
+/* RELATIVA EN VMAX */
+
+h2:first-child {
+    font-size: 5vmax;
+}

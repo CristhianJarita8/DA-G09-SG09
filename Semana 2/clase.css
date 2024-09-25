@@ -1,0 +1,23 @@
+.titulo {
+    font-size: 80px;
+    color:blueviolet;
+    text-align: center;
+}
+
+.logo {
+    width: 2cm;
+}
+
+.subtitulo {
+    font-size: 40px;
+    color: brown;
+}
+
+.imagen {
+    width: 10cm;
+}
+
+.lista {
+    font-size: 20px;
+    color: blue;
+}

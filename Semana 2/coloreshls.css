@@ -1,0 +1,34 @@
+body {
+    background-color: hsl(0, 19%, 27%);
+}
+
+h1 {
+    color: hsl(0, 43%, 51%);
+    font-size: 100px;
+    text-align: center;
+}
+
+h2 {
+    color: hsl(110, 63%, 39%);
+    font-size: 50px;
+}
+
+ul li {
+    color: hsl(184, 39%, 42%);
+    font-size: 30px;
+}
+
+p {
+    color: hsl(244, 42%, 44%);
+    font-size: 25px;
+}
+
+.logo {
+    width: 3cm;
+}
+
+img {
+    width: 10cm;
+    border-radius: 20px;
+}
+

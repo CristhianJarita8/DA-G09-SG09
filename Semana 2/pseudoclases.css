@@ -1,0 +1,42 @@
+h1:before {
+    content: "🤘🏻";
+}
+
+h1::after{
+    content: "🤘🏻";
+}
+
+h1:hover {
+    color: blue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+a:link {
+    color:orange;
+}
+
+a:visited{
+    color:green;
+    text-decoration: underline;
+}
+
+img:hover {
+    opacity: 0.9;    
+}
+
+a:hover {
+    color: violet;
+}
+
+p::first-letter{
+    font-size: 200%;
+}
+
+nav ul li:hover {
+    color:red;
+    font-size: 20px
+};
+
+nav ul li:last-child {
+    border-bottom: 2px solid #28a745;
+}

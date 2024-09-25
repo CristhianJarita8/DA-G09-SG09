@@ -1,0 +1,31 @@
+/* Seleccionar elementos cuyo atributo alt contenga una palabra específica */
+img[alt*="Reciclaje"] {
+    border: 2px dashed #3498db; 
+    padding: 5px;
+    width: 10cm;
+    border-radius: 10px;
+}
+
+[class="titulo"] {
+   color: greenyellow; 
+   text-align: center;
+   font-size: 80px;
+}
+
+[class$="-titulo"] {
+    color: orange;
+    font-size: 40px;
+}
+
+a[href^="https"] {
+    color: violet;
+    font-size: 20px;
+}
+
+img[src$=".jpg"] {
+    width: 10cm;
+}
+
+img[src$=".png"] {
+    width: 10cm;
+}
