@@ -1,71 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJERCICIO 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>START BOOTSTRAP</li>
-                <li>LOGIN</li>
-                <li>SIGN UP</li>
-                <li>CONTACT</li>
+    <div class="container border p-0">
+        <header class="container bg-success p-0">
+            <ul class="container nav bg-black gap-3 d-flex justify-content-between align-items-center p-3 text-white">
+                <li class="nav-item">START BOOTSTRAP</li>
+                <li class="nav-item ms-auto">LOGIN</li>
+                <li class="nav-item">SIGN UP</li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miForm">CONTACT</button>
+                </li>
             </ul>
-        </nav>
-        <img src="" alt="">
-        <h1>START BOOTSTRAP</h1>
-    </header>
-    <div>
-        <h2>PORTFOLIO</h2>
-        <div>
-            <div>
-                <img src="" alt="">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <div class="w-25 m-4">
+                    <img src="Imagenes/kurtis.jpg" class="rounded-circle img-fluid" alt="Perfil">
+                </div>
+                <div>
+                    <p class="h1 m-4">START BOOTSTRAP</p>
+                </div>
             </div>
-            <div>
-                <img src="" alt="">
+        </header>
+        <div class="container p-0">
+            <p class="h2 m-4 text-center">PORTFOLIO</p>
+            <div class="container" style="height: 60vh;">
+                <div class="row gap-3 h-50 justify-content-center">
+                    <div class="d-flex justify-content-center align-items-center h-100 col-4 w-25 bg-danger">
+                        <img src="Imagenes/Casa.jpg" class="rounded-circle h-75 img-fluid" alt="Casa">
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center h-100 col-4 w-25 bg-info">
+                        <img src="Imagenes/Peaky.jpg" class="rounded-circle h-75 img-fluid" alt="Familia">
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center h-100 col-4 w-25 bf-black">
+                        <img src="Imagenes/Circo.jpg" class="rounded-circle h-75 img-fluid" alt="Circo">
+                    </div>
+                </div>
+                <div class="row gap-3 h-50 justify-content-center">
+                    <div class="d-flex justify-content-center align-items-center h-100 col-sm-4 w-25 bg-info">
+                        <img src="Imagenes/Imagen7.jpg" class="rounded-circle h-75 img-fluid" alt="Mando">
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center h-100 col-sm-4 w-25 bg-primary">
+                        <img src="Imagenes/libro.jpg" class="rounded-circle h-75 img-fluid" alt="Libro">
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center h-100 col-sm-4 w-25 bg-warning">
+                        <img src="Imagenes/submarino.jpg" class="rounded-circle h-75 img-fluid" alt="Submarino">
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="" alt="">
+            <div class="container bg-success py-3">
+                <p class="h3 m-4 text-center">ABOUT</p>
+                <div class="d-flex justify-content-center" style="height: 50px;">
+                    <img src="Imagenes/SaltoLinea.png" alt="Linea">
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 w-25">
+                        <p class="m-4">
+                            Si la historia debe cambiar, que cambie. Si el mundo es destruido, que así sea. Si mi destino es morir, simplemente me reiré de él.
+                        </p>
+                    </div>
+                    <div class="col-md-6 w-25">
+                        <p class="m-4">
+                            Demasiadas personas tienen opiniones sobre cosas de las que no saben nada. Y cuanto más ignorantes son, más opiniones tienen.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center"><button type="button" class="btn btn-outline-light m-4">Recomended</button></div>
             </div>
-            <div>
-                <img src="" alt="">
+            <div class="modal" id="miForm">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title">CONTACT ME</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="p-3">
+                            <form action="/action_page.php">
+                                <div>
+                                    <label for="name" class="form-label">Name:</label>
+                                    <input type="text" class="form-control" id="name" name="name">
+                                </div>
+                                <div>
+                                    <label for="lastname" class="form-label">Lastname:</label>
+                                    <input type="text" class="form-control" id="lastname" name="lastname">
+                                </div>
+                                <div>
+                                    <label for="email" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div>
+                                    <label for="pwd" class="form-label">Password:</label>
+                                    <input type="password" class="form-control" id="pwd" name="pswd">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="m-3">
+                            <button type="submit" class="btn btn-primary">Send</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
+            <footer class="container bg-black text-white py-3 px-0">
+                <div class="container-fluid bg-info d-flex justify-content-around m-0 px-0 py-3">
+                    <div>
+                        <p class="h4">No se lee</p>
+                        <p>Un texto que no se entiende</p>
+                    </div>
+                    <div>
+                        <p class="h4">No se lee x2</p>
+                        <p>Iconos redonditos</p>
+                    </div>
+                    <div>
+                        <p class="h4">No se lee x3</p>
+                        <p>Mas texto que no se entiende</p>
+                    </div>
+                </div>
+                <p class="text-white text-center m-3">Copyright 2024</p>
+            </footer>
         </div>
-        <section>
-            <h3>ABOUT</h3>
-            <p>asdasd</p>
-            <button>Recomended</button>
-        </section>
-        <section>
-            <h3>CONTACT ME</h3>
-            <form action="">
-                <label for="name">Name:</label>
-                <input type="text">
-                <label for=""></label>
-                <input type="text">
-                <label for=""></label>
-                <input type="text">
-                <label for=""></label>
-                <input type="text">
-                <button>Send</button>
-            </form>
-        </section>
-        <footer>
-            <div>
-                <div>col1</div>
-                <div>col2</div>
-                <div>col3</div>
-            </div>
-        </footer>
     </div>
 </body>
 </html>
