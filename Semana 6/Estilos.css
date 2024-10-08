@@ -1,0 +1,141 @@
+/* Contenedor principal */
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('Imagenes/Fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Textos */
+h1 {
+    color: aquamarine;
+    font-size: clamp(10px, 3vw, 50px);
+}
+
+h2 {
+    text-align: center;
+    font-size: clamp(20px, 3vw, 30px);
+    margin: 20px 0px 0px 0px;
+}
+
+h4 {
+    font-size: clamp(15px, 2vw, 20px);
+    margin: 0;
+}
+
+.text_menu {
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: black bold;
+}
+
+/* Encabezado */
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+   list-style: none; 
+   display: flex;
+   gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+    width: 100%;
+    height: 100%;
+}
+
+.a_menu{
+    text-decoration: none;
+    font-size: clamp(10px, 1.5vw, 50px);
+}
+
+/* Menú principal */
+#cont_menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 80%;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.cont_item {
+    background-color: rgba(0, 255, 255, 0.418);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    min-height: 100px;
+    max-height: 350px ;
+    border-radius: 20px;
+}
+
+.div_img {
+    text-align: center;
+    width: 100%;
+    height: 70%;
+}
+
+.img_menu {
+    width: 80%;
+    height: 90%;
+    object-fit: contain;
+}
+
+/* Recomendaciones */
+#container_grid {
+    margin: 50px auto;
+    height: 70%;
+    width: 90%;
+}
+
+.grid_reco {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    border: #75dbb1 solid;
+    border-radius: 20px;
+}
+
+.grid_reco a:nth-child(1) {
+    background-color: rgba(211, 67, 67, 0.836);
+    color: #ffffff;
+    align-content: center;
+    border-radius: 20px;
+}
+
+.div_img_reco {
+    height: 200px;
+}
+
+.img_grid {
+    width: 80%;
+    height: 90%;
+    object-fit: contain;
+}
+
+footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+}
