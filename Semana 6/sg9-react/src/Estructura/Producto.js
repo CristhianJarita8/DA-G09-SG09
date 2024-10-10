@@ -12,11 +12,11 @@ function Producto({ imagen, nombre, descripcion, precioDesc, precioNormal, valor
                 <p>{descripcion}</p>
             </div>
             <div className="div_precio_produ">
-                <span className="descuento">{precioDesc}</span>
-                <span className="precio">{precioNormal}</span>
+                <span className="span_descuento">{precioDesc}</span>
+                <span className="span_precio">{precioNormal}</span>
             </div>
             <div className="div_valoracion_produ">
-                <span>{valoracion}/5</span>
+                <span><b>{valoracion}/5</b></span>
                 <span>{opiniones} opiniones</span>
             </div>
         </a>

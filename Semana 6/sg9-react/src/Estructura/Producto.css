@@ -34,11 +34,14 @@ p {
 }
 
 .div_precio_produ {
+  height: 5%;
   display: flex;
   justify-content: space-evenly;
 }
 
 .div_valoracion_produ {
+  height: 5%;
+  margin-bottom: 15px;
   display: flex;
   justify-content: space-evenly;
 }
