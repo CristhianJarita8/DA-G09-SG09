@@ -1,0 +1,21 @@
+/* Recomendaciones */
+
+#grid_main_reco {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  text-align: center;
+  border: #75dbb1 solid;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+#grid_main_reco a:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(211, 67, 67, 0.836);
+  color: #ffffff;
+  border-radius: 20px;
+}

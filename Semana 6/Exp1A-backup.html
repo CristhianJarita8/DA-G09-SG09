@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1B</title>
+    <script src="https://unpkg.com/react@^16/umd/react.production.min.js"> </script>
+    <script src="https://unpkg.com/react-dom@16.13.0/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"> </script>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        class App extends React.Component {
+            render() {
+                return (
+                    <div>
+                        <header>
+                            <h1>DEMONSTORE</h1>
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a className="a_menu" href="">Categorias</a>
+                                    </li>
+                                    <li>
+                                        <a className="a_menu" href="">Busqueda</a>
+                                    </li>
+                                    <li>
+                                        <a className="a_menu" href="">Perfil</a>
+                                    </li>
+                                    <li>
+                                        <a className="a_menu" href="">Carrito</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </header>
+                        <div id="cont_secu">
+                            <div id="cont_menu">
+                                <div className="cont_item">
+                                    <div className="div_img">
+                                        <img className="img_menu" src="Imagenes/CPU.png" alt="CPU ref" />
+                                    </div>
+                                    <div>
+                                        <p className="text_menu">CPU</p>
+                                    </div>
+                                </div>
+                                <div className="cont_item">
+                                    <div className="div_img">
+                                        <img className="img_menu" src="Imagenes/Portatil.png" alt="Portatil ref" />
+                                    </div>
+                                    <div>
+                                        <p className="text_menu">Portatiles</p>
+                                    </div>
+                                </div>
+                                <div className="cont_item">
+                                    <div className="div_img">
+                                        <img className="img_menu" src="Imagenes/Monitor.png" alt="Monitor ref" />
+                                    </div>
+                                    <div>
+                                        <p className="text_menu">Monitores</p>
+                                    </div>
+                                </div>
+                                <div className="cont_item">
+                                    <div className="div_img">
+                                        <img className="img_menu" src="Imagenes/Televisor.png" alt="Televisor ref" />
+                                    </div>
+                                    <div>
+                                        <p className="text_menu">Televisores</p>
+                                    </div>
+                                </div>
+                                <div className="cont_item">
+                                    <div className="div_img">
+                                        <img className="img_menu" src="Imagenes/Smartphone.png" alt="Smartphone ref" />
+                                    </div>
+                                    <div>
+                                        <p className="text_menu">Smartphones</p>
+                                    </div>
+                                </div>
+                                <div className="cont_item">
+                                    <div className="div_img">
+                                        <img className="img_menu" src="Imagenes/Periferico.png" alt="Perifericos ref" />
+                                    </div>
+                                    <div>
+                                        <p className="text_menu">Perifericos</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="container_grid">
+                                <h2>RECOMENDACIONES</h2>
+                                <div className="grid_reco">
+                                    <a href="">
+                                        <div className="div_img_reco">
+                                            <img className="img_grid" src="Imagenes/Portatil.png" alt="Portatil ref" />
+                                            <h4>PORTATILES</h4>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div>
+                                            <div className="div_img_reco">
+                                                <img className="img_grid" src="Imagenes/Portatiles/ASUS ROG Scar 18 (2024).png" alt="" />
+                                            </div>
+                                            <h4>ASUS ROG Strix SCAR 18 (2024)</h4>
+                                            <div>
+                                                <span>Precio con descuento</span>
+                                                <span>Precio normal</span>
+                                            </div>
+                                            <div>
+                                                <span>Valoracion</span>
+                                                <span>Opiniones</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div>
+                                            <div className="div_img_reco">
+                                                <img className="img_grid" src="Imagenes/Portatiles/MSI Titan 18 HX.png" alt="" />
+                                            </div>
+                                            <h4>MSI Titan 18 HX A14V</h4>
+                                            <div>
+                                                <span>Precio con descuento</span>
+                                                <span>Precio normal</span>
+                                            </div>
+                                            <div>
+                                                <span>Valoracion</span>
+                                                <span>Opiniones</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div>
+                                            <div className="div_img_reco">
+                                                <img className="img_grid" src="Imagenes/Portatiles/ACER Predator Helios 18.png" alt="" />
+                                            </div>
+                                            <h4>ACER PREDATOR HELIOS 18</h4>
+                                            <div>
+                                                <span>Precio con descuento</span>
+                                                <span>Precio normal</span>
+                                            </div>
+                                            <div>
+                                                <span>Valoracion</span>
+                                                <span>Opiniones</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div>
+                                            <div className="div_img_reco">
+                                                <img className="img_grid" src="Imagenes/Portatiles/LENOVO Legion 9i pro.png" alt="" />
+                                            </div>
+                                            <h4>LENOVO LEGION 9i 16" 9na Gen</h4>
+                                            <div>
+                                                <span>Precio con descuento</span>
+                                                <span>Precio normal</span>
+                                            </div>
+                                            <div>
+                                                <span>Valoracion</span>
+                                                <span>Opiniones</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="">
+                                        <div>
+                                            <div className="div_img_reco">
+                                                <img className="img_grid" src="Imagenes/Portatiles/HP OMEN 16.png" alt="" />
+                                            </div>
+                                            <h4>HP OMEN GAMING 16-wf0001la</h4>
+                                            <div>
+                                                <span>Precio con descuento</span>
+                                                <span>Precio normal</span>
+                                            </div>
+                                            <div>
+                                                <span>Valoracion</span>
+                                                <span>Opiniones</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <footer>
+                            <h4>Derechos Reservados</h4>
+                        </footer>
+                    </div >
+                );
+            }
+        }
+
+        ReactDOM.render(<App />, document.getElementById('root'))
+    </script>
+</body>
+
+</html>

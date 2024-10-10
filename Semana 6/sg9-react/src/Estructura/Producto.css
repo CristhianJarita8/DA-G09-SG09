@@ -1,0 +1,44 @@
+/* Producto */
+
+#cont_item_produ {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.div_img_produ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.div_nombre {
+  height: 30%;
+  margin: 5px;
+}
+
+p {
+  font-size: clamp(10px, 1.5vh, 20px);
+}
+
+.img_produ {
+  width: 95%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+.div_precio_produ {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.div_valoracion_produ {
+  display: flex;
+  justify-content: space-evenly;
+}
