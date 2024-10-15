@@ -1,0 +1,17 @@
+/* Encabezado */
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.btn_menu {
+  height: 100%;
+  width: 10vw;
+  text-align: center;
+  font-size: 1vw;
+  border-radius: 10px;
+  background-color: hsla(160, 43%, 64%, 0.781);
+}

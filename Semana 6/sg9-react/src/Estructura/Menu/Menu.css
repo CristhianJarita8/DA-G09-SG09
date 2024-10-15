@@ -13,6 +13,23 @@
   gap: 10px;
 }
 
+.minimenu {
+  position: absolute;
+  background-color: rgba(235, 197, 141, 0.747);
+  top: 65px;
+  padding: 10px;
+  width: 8vw;
+  border-radius: 10px;
+}
+
+.mini_lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left : 0;
+  font-size: clamp(5px,1.5vw,20px);
+}
+
 @media (max-width: 800px) {
   #div_main_menu {
     height: 200px;
