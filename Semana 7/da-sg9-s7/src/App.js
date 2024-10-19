@@ -11,11 +11,13 @@ import { NewProducts } from './Paginas/NewProducts';
 import { Users } from './Paginas/Users';
 import { Userdetails } from "./Paginas/UserDetails";
 import { Admin } from "./Paginas/Admin";
-import Component1  from "./Paginas/Context";
+import Component1 from "./Paginas/Context";
 import "./index.css";
 // EJEMPLOS ADICIONALES
 import Services from './Paginas/Services';
 import About from './Paginas/About';
+import { ServiceNetwork } from './Paginas/ServiceNetwork';
+import { ServiceMaintenance } from './Paginas/ServiceMaintenance';
 
 function App() {
   return (
@@ -29,7 +31,10 @@ function App() {
             <Route path="featured" element={<FeaturedProducts />} />
             <Route path="new" element={<NewProducts />} />
           </Route>
-          <Route path='services' element={<Services />} />
+          <Route path='services' element={<Services />} >
+            <Route path='maintenance' element={<ServiceMaintenance />} />
+            <Route path='network' element={<ServiceNetwork />} />
+          </Route>
           <Route path='about' element={<About />} />
           <Route path="users" element={<Users />}>
             <Route path=":userId" element={<Userdetails />} />

@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    background-color: rgb(121, 209, 202);
+    border-radius: 20px;
+    max-width: 800px;
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2; /*Espacio entre lineas*/
+}
+
+.img_about {
+    border-radius: 20px;
+    width: 70%;
+    object-fit: contain;
+}
