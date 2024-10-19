@@ -14,7 +14,7 @@ import { Admin } from "./Paginas/Admin";
 import Component1 from "./Paginas/Context";
 import "./index.css";
 // EJEMPLOS ADICIONALES
-import Services from './Paginas/Services';
+import { Services } from './Paginas/Services';
 import About from './Paginas/About';
 import { ServiceNetwork } from './Paginas/ServiceNetwork';
 import { ServiceMaintenance } from './Paginas/ServiceMaintenance';

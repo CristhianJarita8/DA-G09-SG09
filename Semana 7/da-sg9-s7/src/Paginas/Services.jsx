@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import "./Services.css";
 
-const Services = () => {
+export const Services = () => {
     return (
         <div>
             <h1>Nuestros Servicios</h1>
@@ -13,15 +13,14 @@ const Services = () => {
                         <h3>Reparacion y Mantenimiento de Equipos</h3>
                     </div>
                 </Link>
-                <Link to='netowrk'>
+                <Link to='network'>
                     <div className='item_grid'>
                         <img className='img_grid' src="/Imagenes/Redes.png" alt="" />
                         <h3>Instalacion de Redes y Comunicaciones </h3>
                     </div>
                 </Link>
             </div>
+            <Outlet />
         </div>
     )
 };
-
-export default Services;
