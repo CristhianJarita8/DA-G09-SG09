@@ -6,6 +6,7 @@ function Footer() {
         <div>
             <footer>
                 <h4>Derechos Reservados</h4>
+                <h4>Términos y Condiciones</h4>
             </footer>
         </div>
     );
